@@ -1,4 +1,4 @@
-function retorna_fecha_ymdhi(fecha){
+function retorna_fecha_ymdhi(fecha = new Date()){
     let new_fecha = new Date(fecha);
     let anho = new_fecha.getFullYear();
     let dia = new_fecha.getDate();
